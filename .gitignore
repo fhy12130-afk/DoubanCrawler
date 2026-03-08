@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# Data files (爬取的数据不应提交)
+data/
+*.json
+
+# Debug files
+debug_*.html
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Sensitive config (包含 Cookie 的配置不应提交)
+config.local.py
